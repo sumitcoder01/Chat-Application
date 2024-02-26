@@ -16,9 +16,10 @@ To run the application locally, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/sumitcoder01/Chat-Application`
 2. Navigate to the project directory: `cd Chat-Application`
+3.  Navigate to the NodeServer directory: `cd NodeServer`
 3. Install dependencies: `npm install`
 4. Start the server: `npm start`
-5. Open your browser and go to `http://localhost:3000` to access the application.
+5. Open your browser and go to `http://localhost:8000` to access the application.
 
 ## Deployment
 
