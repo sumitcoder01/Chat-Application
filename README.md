@@ -1,6 +1,6 @@
-# IChat Application
+# Chat Application 
 
-Welcome to Chat Application, a real-time chat application built with Node.js using Socket.io for the backend. The frontend is deployed on Netlify, while the backend is deployed on Render.com.
+Welcome to Chat Application global chat application, a real-time and anymounous chat application built with Node.js using Socket.io for the backend. The frontend is deployed on Netlify, while the backend is deployed on Render.com.
 
 ## Features
 
