@@ -72,9 +72,44 @@ header {
     padding      : 10px 14px;
     border-radius: 10px;
     border       : solid 2px black;
+    transition   : background-color 0.3s ease;
 }
 
-.btn:hover {
-
+.btn:hover,
+.btn:focus,
+#messageInp:hover,
+#messageInp:focus {
+    outline         : none;
     background-color: #dbd5d5;
+    box-shadow      : 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 95%;
+        height   : 60vh;
+    }
+
+    .message {
+        max-width: 95%;
+    }
+
+    #messageInp {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .container {
+        max-width: 95%;
+        height   : 70vh;
+    }
+
+    .message {
+        max-width: 95%;
+    }
+
+    #messageInp {
+        width: 90%;
+    }
 }
